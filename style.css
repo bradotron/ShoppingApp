@@ -1,0 +1,33 @@
+ol {
+    display: flex;
+
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+    border-right: solid;
+}
+
+.cart-item:last-child {
+    border-right: none;
+}
+
+
+
+
+#img1 {
+    border: 2px solid green;
+}
+
+#img2 {
+    border: solid;
+}
+
+#img3 {
+    border: solid;
+}

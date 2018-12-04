@@ -2,92 +2,58 @@
 <html>
     <head>
             <link rel="stylesheet" type="text/css" href="reset.css">
-        
-        <style>
-            .container {
-                display: flex;
-                justify-content: center;
-                align-content: flex-start;
-                max-width: 960px;
-            }
-
-            .cart-item {
-                display: block;
-            }
-
-            .flex-list {
-                display: flex;
-                align-content: flex-start;
-                flex-wrap: wrap;
-
-            }
-            header {
-                width: 100%;
-                background-color: white;
-                color: black;
-                padding: 10px;
-                text-align: center;
-            }
-            footer {
-                display: block;
-                width: 100%;
-                height: 30px;
-                background-color: grey;
-                text-align: center;
-            }
-        </style>
-        
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <link rel="stylesheet" type="text/css" href="nav.css">
     </head>
 
     <body>
         <header>
-                ShoppingApp - Cart
-                <nav>
-                        <a href="index.html">Home</a>
-                        <a href="checkout.html">Checkout</a>
-                </nav>
+            <span class="logo">ShoppingApp - Cart</span>
+            <nav>    
+                <a href="index.html">Home</a>
+                <a href="checkout.html">Checkout</a> 
+            </nav>
         </header>
-        <div class ="container">
-            
-            <div class="container">
-                
 
-                <!--add items to the cart with 
-                1. an image
-                2. description
-                3. a price
-                 -->
-                <ol class = "flex-list"> <!--shopping cart list-->
-                    <li class="cart-item"> <!--shopping cart item-->
-                        <ul>
-                            <li><a href="checkout.html"><img src="https://images-na.ssl-images-amazon.com/images/I/81Nox3hzQaL._SY240_.jpg" width = "150" height="150"></a></li>
-                            <li>This is laptop computer</li>
-                            <li>$13.99</li>
-                        </ul>
-                    </li>
-                    <li class="cart-item"> <!--shopping cart item-->
-                        <ul>
-                            <li><a href="checkout.html"><img src="https://images-na.ssl-images-amazon.com/images/I/51b1leww82L._SCLZZZZZZZ___AC_SY200_.jpg" width="150" height="150"></a></li>
-                            <li>This is christmas lights</li>
-                            <li>$3.99</li>
-                        </ul>
-                    </li>
-                    <li class="cart-item"> <!--shopping cart item-->
-                        <ul>
-                            <li><a href="checkout.html"><img src="https://images-na.ssl-images-amazon.com/images/I/81clA1VdA+L._AC_SY200_.jpg" width="150" height="150"></a></li>
-                            <li>This is a bunch of pots and pans</li>
-                            <li>$199.99</li>
-                        </ul>
-                    </li>
-                </ol>
-                <br>
-                <a href="checkout.html">Checkout</a>
-                <br>
-                <br>
-                
-            </div>
+
+        <div class="container">
+            
+
+            <!--add items to the cart with 
+            1. an image
+            2. description
+            3. a price
+                -->
+            <ol class = "flex-list"> <!--shopping cart list-->
+                <li class="cart-item"> <!--shopping cart item-->
+                    <ul>
+                        <li><a href="checkout.html"><img id="img1" src="https://images-na.ssl-images-amazon.com/images/I/81Nox3hzQaL._SY240_.jpg" width = "150" height="150"></a></li>
+                        <li>This is laptop computer</li>
+                        <li>$13.99</li>
+                    </ul>
+                </li>
+                <li class="cart-item"> <!--shopping cart item-->
+                    <ul>
+                        <li><a href="checkout.html"><img id="img2" src="https://images-na.ssl-images-amazon.com/images/I/51b1leww82L._SCLZZZZZZZ___AC_SY200_.jpg" width="150" height="150"></a></li>
+                        <li>This is christmas lights</li>
+                        <li>$3.99</li>
+                    </ul>
+                </li>
+                <li class="cart-item"> <!--shopping cart item-->
+                    <ul>
+                        <li><a href="checkout.html"><img id="img3" src="https://images-na.ssl-images-amazon.com/images/I/81clA1VdA+L._AC_SY200_.jpg" width="150" height="150"></a></li>
+                        <li>This is a bunch of pots and pans</li>
+                        <li>$199.99</li>
+                    </ul>
+                </li>
+            </ol>
+            <br>
+            <a href="checkout.html">Checkout</a>
+            <br>
+            <br>
             
         </div>
+
         <footer>
                 Copyright 2018 - ShoppingApp
         </footer>
