@@ -1,6 +1,5 @@
 ol {
     display: flex;
-
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -17,6 +16,21 @@ ol {
     border-right: none;
 }
 
+ul li:first-child {
+    padding: 15px;
+}
+
+li {
+    text-align: center;
+}
+
+img {
+    transform: rotate(-15deg);
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
 
 
 
@@ -30,4 +44,8 @@ ol {
 
 #img3 {
     border: solid;
+}
+
+footer {
+    text-align: center;
 }
